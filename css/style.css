@@ -15,8 +15,41 @@
 }
 
 /* ▓▒▒▒▒▒▒▒▒▒▒▒ PRICING ▒▒▒▒▒▒▒▒▒▒▒▓ */
-.pricing .row {
-    border-bottom: 2px solid rgb(179, 213, 245);
-    padding: 20px 0;
-    font-size: 18px !important;
+.pricing .row{
+    padding: 15px 0;
+}
+.total-price-row .col{
+    border-bottom: none !important;
+}
+.pricing .row .col h5 {
+    font-weight: 700;
+}
+
+.promo-code input{
+    height: 4rem;
+    width: 16rem;
+    padding: 0 20px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    border: 2px solid;
+    border-color: #bb2d3b;    
+}
+.promo-code input:focus {
+    border-color: #2dbb51;   
+}
+.promo-code .btn {
+    padding: 19px 30px;
+    margin-bottom: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+/* ▓▒▒▒▒▒▒▒▒▒▒▒ FOOTER ▒▒▒▒▒▒▒▒▒▒▒▓ */
+footer {
+    border-top: 1px solid rgb(219, 219, 219);
+    background-color: rgba(211, 211, 211, 0.199);
+    padding: 10px 0;
+    font-size: larger;
+}
+footer h1 {
+    padding-bottom: 1.7rem;
 }
